@@ -38,7 +38,7 @@ public class LoginExplicitWaitTest {
     @Test
     public void loginExplicitWaitTest(){
         WebElement email = driver.findElement(By.id("identifierId"));
-        email.sendKeys("amtrindade@gmail.com");
+        email.sendKeys("email@gmail.com");
         WebElement next = driver.findElement(By.id("identifierNext"));
         next.click();
 
