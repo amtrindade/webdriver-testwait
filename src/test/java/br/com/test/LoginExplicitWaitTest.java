@@ -1,3 +1,5 @@
+package br.com.test;
+
 import com.google.common.base.Function;
 import org.junit.After;
 import org.junit.Before;
@@ -23,7 +25,7 @@ public class LoginExplicitWaitTest {
 
     @Before
     public void setup() {
-        System.setProperty("webdriver.firefox.marionette", "/home/atrindade/dev/drivers/geckodriver");
+        System.setProperty("webdriver.gecko.driver", "/home/atrindade/dev/drivers/geckodriver");
         driver = new FirefoxDriver();
         driver.get("http://www.gmail.com");
     }
