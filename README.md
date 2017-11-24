@@ -4,7 +4,7 @@ Projeto de testes funcionais utilizando formas diferentes de espera
 
 ## Java ##
 
-* Necessário o JDK8 (Java Development Kit 8) instalado na máquina.
+* Necessário o JDK8 (Java Development Kit 8)
 
 ## Maven gerenciando as libraries ##
 
